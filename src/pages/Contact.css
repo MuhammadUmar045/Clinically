@@ -1,0 +1,138 @@
+.contact-page { padding-bottom: 64px; }
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.contact-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+
+.contact-card-icon {
+  width: 52px;
+  height: 52px;
+  background: var(--primary-light);
+  color: var(--primary);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+}
+
+.contact-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 10px; }
+.contact-card p { font-size: 13px; color: var(--text-gray); line-height: 1.8; }
+
+.contact-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-bottom: 40px;
+  min-height: 480px;
+}
+
+.contact-map {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  min-height: 420px;
+}
+
+.contact-form-card {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid var(--border);
+}
+
+.contact-form-card h2 { font-size: 22px; font-weight: 800; margin-bottom: 6px; }
+.contact-form-card > p { color: var(--text-gray); font-size: 14px; margin-bottom: 24px; }
+
+.form-group { margin-bottom: 16px; }
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  text-align: right;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: 'Tajawal', sans-serif;
+  direction: rtl;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--primary);
+}
+
+.form-group textarea { resize: vertical; }
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, var(--primary), #0d6e5c);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Tajawal', sans-serif;
+  transition: opacity 0.2s;
+  margin-top: 8px;
+}
+
+.submit-btn:hover { opacity: 0.9; }
+
+.emergency-banner {
+  background: linear-gradient(135deg, var(--primary), #0d6e5c);
+  color: white;
+  text-align: center;
+  padding: 56px 24px;
+  border-radius: 20px;
+}
+
+.emergency-banner h2 { font-size: 28px; font-weight: 800; margin-bottom: 10px; }
+.emergency-banner p { font-size: 15px; opacity: 0.85; margin-bottom: 16px; }
+
+.emergency-number {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 16px 0;
+}
+
+.emergency-note { font-size: 13px; opacity: 0.7; margin-top: 4px; }
+
+@media (max-width: 900px) {
+  .contact-cards { grid-template-columns: repeat(2, 1fr); }
+  .contact-main { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .contact-cards { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+}
