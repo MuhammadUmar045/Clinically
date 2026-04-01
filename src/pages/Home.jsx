@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Star, Clock, Calendar, FileText, CreditCard, Shield, Award, Users, Heart } from 'lucide-react';
+import { Star, Clock, Calendar, FileText, CreditCard, Shield, Award, Users } from 'lucide-react';
 import { services } from '../data/Services';
 import './Home.css';
 

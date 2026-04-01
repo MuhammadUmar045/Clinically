@@ -24,10 +24,10 @@ function Footer() {
             </div>
             <p>منصة حجز عيادات طبية متكاملة تجمع بين أفضل الأطباء والمرضى بطريقة سهلة وموثوقة.</p>
             <div className="footer-socials">
-              <a href="#">▶</a>
-              <a href="#">✕</a>
-              <a href="#">in</a>
-              <a href="#">📘</a>
+              <a href="https://www.youtube.com" target="_blank" rel="noreferrer">▶</a>
+              <a href="https://x.com" target="_blank" rel="noreferrer">✕</a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">in</a>
+              <a href="https://www.facebook.com" target="_blank" rel="noreferrer">📘</a>
             </div>
           </div>
 
@@ -45,11 +45,11 @@ function Footer() {
           <div className="footer-col">
             <h4>الأحكام والسياسات</h4>
             <ul>
-              <li><a href="#">سياسة الخصوصية</a></li>
-              <li><a href="#">الشروط والأحكام</a></li>
-              <li><a href="#">سياسة الإلغاء والاسترداد</a></li>
-              <li><a href="#">موقع أمن ومحمي</a></li>
-              <li><a href="#">معتمد من وزارة الصحة</a></li>
+              <li><a href="https://clinicly.sa/privacy-policy" target="_blank" rel="noreferrer">سياسة الخصوصية</a></li>
+              <li><a href="https://clinicly.sa/terms" target="_blank" rel="noreferrer">الشروط والأحكام</a></li>
+              <li><a href="https://clinicly.sa/refund-policy" target="_blank" rel="noreferrer">سياسة الإلغاء والاسترداد</a></li>
+              <li><a href="https://clinicly.sa/security" target="_blank" rel="noreferrer">موقع أمن ومحمي</a></li>
+              <li><a href="https://www.moh.gov.sa" target="_blank" rel="noreferrer">معتمد من وزارة الصحة</a></li>
             </ul>
           </div>
 
